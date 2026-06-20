@@ -1,0 +1,41 @@
+
+  /* Library Look_Up Tables Templates */
+  
+  lu_table_template (Hold_3_3) {
+	variable_1 : constrained_pin_transition;
+	variable_2 : related_pin_transition;
+	index_1 ("0.0010,0.0020,0.0030");
+	index_2 ("0.0010,0.0020,0.0030");
+  }
+
+  lu_table_template (Recovery_3_3) {
+	variable_1 : constrained_pin_transition;
+	variable_2 : related_pin_transition;
+	index_1 ("0.0010,0.0020,0.0030");
+	index_2 ("0.0010,0.0020,0.0030");
+  }
+
+
+  lu_table_template (Removal_3_3) {
+	variable_1 : constrained_pin_transition;
+	variable_2 : related_pin_transition;
+	index_1 ("0.0010,0.0020,0.0030");
+	index_2 ("0.0010,0.0020,0.0030");
+  }
+
+
+  lu_table_template (Setup_3_3) {
+	variable_1 : constrained_pin_transition;
+	variable_2 : related_pin_transition;
+	index_1 ("0.0010,0.0020,0.0030");
+	index_2 ("0.0010,0.0020,0.0030");
+  }
+
+
+  lu_table_template (Timing_7_7) {
+	variable_1 : input_net_transition;
+	variable_2 : total_output_net_capacitance;
+	index_1 ("0.0010,0.0020,0.0030,0.0040,0.0050,0.0060,0.0070");
+	index_2 ("0.0010,0.0020,0.0030,0.0040,0.0050,0.0060,0.0070");
+  }
+  

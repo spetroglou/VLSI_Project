@@ -1,0 +1,194 @@
+{
+    "models": [
+        {
+            "name": "XOR2_X1",
+            "type": "combinational",
+            "function": "(A ^ B)",
+            "filepath": "spice_exercises/semester_project/xor.spice",
+            "input_pins": ["in1xor", "in2xor"],
+            "output_pins": ["xor_out"],
+            "timing_arcs": [
+                {
+                    "from_pin": "in1xor",
+                    "to_pin": "xor_out",
+                    "side_input": 0,
+                    "unateness": "positive_unate",
+                    "lut_template": "Timing_7_7",
+                    "cell_rise": "vlsi_measurements/xor_gate/arcs_from_in1xor/xor_cell_rise_si0_lut.json",
+                    "cell_fall": "vlsi_measurements/xor_gate/arcs_from_in1xor/xor_cell_fall_si0_lut.json",
+                    "rise_transition": "vlsi_measurements/xor_gate/arcs_from_in1xor/xor_rise_transition_si0_lut.json",
+                    "fall_transition": "vlsi_measurements/xor_gate/arcs_from_in1xor/xor_fall_transition_si0_lut.json"
+                },
+                {
+                    "from_pin": "in2xor",
+                    "to_pin": "xor_out",
+                    "side_input": 0,
+                    "unateness": "positive_unate",
+                    "lut_template": "Timing_7_7",
+                    "cell_rise": "vlsi_measurements/xor_gate/arcs_from_in2xor/xor_cell_rise_si0_lut.json",
+                    "cell_fall": "vlsi_measurements/xor_gate/arcs_from_in2xor/xor_cell_fall_si0_lut.json",
+                    "rise_transition": "vlsi_measurements/xor_gate/arcs_from_in2xor/xor_rise_transition_si0_lut.json",
+                    "fall_transition": "vlsi_measurements/xor_gate/arcs_from_in2xor/xor_fall_transition_si0_lut.json"
+                },
+                {
+                    "from_pin": "in1xor",
+                    "to_pin": "xor_out",
+                    "side_input": 1,
+                    "unateness": "negative_unate",
+                    "lut_template": "Timing_7_7",
+                    "cell_rise": "vlsi_measurements/xor_gate/arcs_from_in1xor/xor_cell_rise_si1_lut.json",
+                    "cell_fall": "vlsi_measurements/xor_gate/arcs_from_in1xor/xor_cell_fall_si1_lut.json",
+                    "rise_transition": "vlsi_measurements/xor_gate/arcs_from_in1xor/xor_rise_transition_si1_lut.json",
+                    "fall_transition": "vlsi_measurements/xor_gate/arcs_from_in1xor/xor_fall_transition_si1_lut.json"
+                },
+                {
+                    "from_pin": "in2xor",
+                    "to_pin": "xor_out",
+                    "side_input": 1,
+                    "unateness": "negative_unate",
+                    "lut_template": "Timing_7_7",
+                    "cell_rise": "vlsi_measurements/xor_gate/arcs_from_in2xor/xor_cell_rise_si1_lut.json",
+                    "cell_fall": "vlsi_measurements/xor_gate/arcs_from_in2xor/xor_cell_fall_si1_lut.json",
+                    "rise_transition": "vlsi_measurements/xor_gate/arcs_from_in2xor/xor_rise_transition_si1_lut.json",
+                    "fall_transition": "vlsi_measurements/xor_gate/arcs_from_in2xor/xor_fall_transition_si1_lut.json"
+                }
+            ]
+        },
+        {
+            "name": "XNOR2_X1",
+            "type": "combinational",
+            "function": "!(A ^ B)",
+            "filepath": "spice_exercises/semester_project/xnor.spice",
+            "input_pins": ["in1xnor", "in2xnor"],
+            "output_pins": ["xnor_out"],
+            "timing_arcs": [
+                {
+                    "from_pin": "in1xnor",
+                    "to_pin": "xnor_out",
+                    "side_input": 0,
+                    "unateness": "negative_unate",
+                    "lut_template": "Timing_7_7",
+                    "cell_rise": "vlsi_measurements/xnor_gate/arcs_from_in1xnor/xnor_cell_rise_si0_lut.json",
+                    "cell_fall": "vlsi_measurements/xnor_gate/arcs_from_in1xnor/xnor_cell_fall_si0_lut.json",
+                    "rise_transition": "vlsi_measurements/xnor_gate/arcs_from_in1xnor/xnor_rise_transition_si0_lut.json",
+                    "fall_transition": "vlsi_measurements/xnor_gate/arcs_from_in1xnor/xnor_fall_transition_si0_lut.json"
+                },
+                {
+                    "from_pin": "in2xnor",
+                    "to_pin": "xnor_out",
+                    "side_input": 0,
+                    "unateness": "negative_unate",
+                    "lut_template": "Timing_7_7",
+                    "cell_rise": "vlsi_measurements/xnor_gate/arcs_from_in2xnor/xnor_cell_rise_si0_lut.json",
+                    "cell_fall": "vlsi_measurements/xnor_gate/arcs_from_in2xnor/xnor_cell_fall_si0_lut.json",
+                    "rise_transition": "vlsi_measurements/xnor_gate/arcs_from_in2xnor/xnor_rise_transition_si0_lut.json",
+                    "fall_transition": "vlsi_measurements/xnor_gate/arcs_from_in2xnor/xnor_fall_transition_si0_lut.json"
+                },
+                {
+                    "from_pin": "in1xnor",
+                    "to_pin": "xnor_out",
+                    "side_input": 1,
+                    "unateness": "positive_unate",
+                    "lut_template": "Timing_7_7",
+                    "cell_rise": "vlsi_measurements/xnor_gate/arcs_from_in1xnor/xnor_cell_rise_si1_lut.json",
+                    "cell_fall": "vlsi_measurements/xnor_gate/arcs_from_in1xnor/xnor_cell_fall_si1_lut.json",
+                    "rise_transition": "vlsi_measurements/xnor_gate/arcs_from_in1xnor/xnor_rise_transition_si1_lut.json",
+                    "fall_transition": "vlsi_measurements/xnor_gate/arcs_from_in1xnor/xnor_fall_transition_si1_lut.json"
+                },
+                {
+                    "from_pin": "in2xnor",
+                    "to_pin": "xnor_out",
+                    "side_input": 1,
+                    "unateness": "positive_unate",
+                    "lut_template": "Timing_7_7",
+                    "cell_rise": "vlsi_measurements/xnor_gate/arcs_from_in2xnor/xnor_cell_rise_si1_lut.json",
+                    "cell_fall": "vlsi_measurements/xnor_gate/arcs_from_in2xnor/xnor_cell_fall_si1_lut.json",
+                    "rise_transition": "vlsi_measurements/xnor_gate/arcs_from_in2xnor/xnor_rise_transition_si1_lut.json",
+                    "fall_transition": "vlsi_measurements/xnor_gate/arcs_from_in2xnor/xnor_fall_transition_si1_lut.json"
+                }
+            ]
+        },
+        {
+            "name": "DFF_X1",
+            "type": "sequential",
+            "ff_group": [
+                {
+                    "ff_type": "synchronous",
+                    "next_state_output": "IQ",
+                    "not_next_state_output": "nIQ",
+                    "data_input": "D",
+                    "clock_input": "Clk"
+                }
+            ],
+            "filepath": "spice_exercises/semester_project/dff.spice",
+            "input_pins": ["D", "Clk"],
+            "output_pins": ["Q", "nQ"],
+            "timing_arcs": [
+                {
+                    "from_pin": "Clk",
+                    "to_pin": "Q",
+                    "side_input": 1,
+                    "unateness": "non_unate",
+                    "lut_template": "Timing_7_7",
+                    "cell_rise": "vlsi_measurements/dff_circuit/timing_arcs/dff_cell_rise_Q_exit_lut.json",
+                    "cell_fall": "vlsi_measurements/dff_circuit/timing_arcs/dff_cell_fall_Q_exit_lut.json",
+                    "rise_transition": "vlsi_measurements/dff_circuit/timing_arcs/dff_rise_transition_Q_exit_lut.json",
+                    "fall_transition": "vlsi_measurements/dff_circuit/timing_arcs/dff_fall_transition_Q_exit_lut.json"
+                },
+                {
+                    "from_pin": "Clk",
+                    "to_pin": "nQ",
+                    "side_input": 1,
+                    "unateness": "non_unate",
+                    "lut_template": "Timing_7_7",
+                    "cell_rise": "vlsi_measurements/dff_circuit/timing_arcs/dff_cell_rise_nQ_exit_lut.json",
+                    "cell_fall": "vlsi_measurements/dff_circuit/timing_arcs/dff_cell_fall_nQ_exit_lut.json",
+                    "rise_transition": "vlsi_measurements/dff_circuit/timing_arcs/dff_rise_transition_nQ_exit_lut.json",
+                    "fall_transition": "vlsi_measurements/dff_circuit/timing_arcs/dff_fall_transition_nQ_exit_lut.json"
+                }
+            ],
+            "constraint_arcs": [
+                {
+                    "from_pin": "D",
+                    "to_pin": "Clk",
+                    "constraint_type": "setup_rising",
+                    "lut_template": "Setup_3_3",
+                    "rise_constraint": "vlsi_measurements/dff_circuit/constraint_arcs/dff_setup_rising_rise_constraint_lut.json",
+                    "fall_constraint": "vlsi_measurements/dff_circuit/constraint_arcs/dff_setup_rising_fall_constraint_lut.json"
+                },
+                {
+                    "from_pin": "D",
+                    "to_pin": "Clk",
+                    "constraint_type": "hold_rising",
+                    "lut_template": "Hold_3_3",
+                    "rise_constraint": "vlsi_measurements/dff_circuit/constraint_arcs/dff_hold_rising_rise_constraint_lut.json",
+                    "fall_constraint": "vlsi_measurements/dff_circuit/constraint_arcs/dff_hold_rising_fall_constraint_lut.json"
+                }
+            ]
+        },
+        {
+            "name": "DFFRS_X1",
+            "type": "sequential",
+            "ff_group": [
+                {
+                    "ff_type": "asynchronous",
+                    "next_state_output": "IQ",
+                    "not_next_state_output": "nIQ",
+                    "data_input": "D",
+                    "clock_input": "Clk",
+                    "preset_input": "Pre",
+                    "clear_input": "Clr"
+                }
+            ],
+            "filepath": "spice_exercises/semester_project/dff.spice",
+            "input_pins": ["D", "Clk", "Pre", "Clr"],
+            "output_pins": ["Q", "nQ"],
+            "timing_arcs": [
+
+            ],
+            "constraint_arcs": [
+
+            ]
+        }
+    ]
+}
