@@ -1,0 +1,55 @@
+{
+    "measurements": [
+        {
+            "constrained_pin_transition": 0.00231025,
+            "related_pin_transition": [
+                {
+                    "related_pin_transition": 0.00231025,
+                    "value": 5.981850
+                },
+                {
+                    "related_pin_transition": 0.112657,
+                    "value": 5.877970
+                },
+                {
+                    "related_pin_transition": 0.5,
+                    "value": 5.743382
+                }
+            ]
+        },
+        {
+            "constrained_pin_transition": 0.112657,
+            "related_pin_transition": [
+                {
+                    "related_pin_transition": 0.00231025,
+                    "value": 6.026930
+                },
+                {
+                    "related_pin_transition": 0.112657,
+                    "value": 5.924100
+                },
+                {
+                    "related_pin_transition": 0.5,
+                    "value": 5.789512
+                }
+            ]
+        },
+        {
+            "constrained_pin_transition": 0.5,
+            "related_pin_transition": [
+                {
+                    "related_pin_transition": 0.00231025,
+                    "value": 6.169918
+                },
+                {
+                    "related_pin_transition": 0.112657,
+                    "value": 6.067088
+                },
+                {
+                    "related_pin_transition": 0.5,
+                    "value": 5.931450
+                }
+            ]
+        }
+    ]
+}

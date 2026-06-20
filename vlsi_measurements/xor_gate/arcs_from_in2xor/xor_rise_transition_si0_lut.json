@@ -1,0 +1,235 @@
+{
+    "measurements": [
+        {
+            "input_slew": 0.00231025,
+            "output_load": [
+                {
+                    "output_load": 0.365616,
+                    "value": 1.429316
+                },
+                {
+                    "output_load": 0.791550,
+                    "value": 1.430999
+                },
+                {
+                    "output_load": 1.583100,
+                    "value": 1.434127
+                },
+                {
+                    "output_load": 3.166200,
+                    "value": 1.440382
+                },
+                {
+                    "output_load": 6.332400,
+                    "value": 1.452877
+                },
+                {
+                    "output_load": 12.664800,
+                    "value": 1.476927
+                },
+                {
+                    "output_load": 25.329600,
+                    "value": 1.527446
+                }
+            ]
+        },
+        {
+            "input_slew": 0.0112628,
+            "output_load": [
+                {
+                    "output_load": 0.365616,
+                    "value": 1.344251
+                },
+                {
+                    "output_load": 0.791550,
+                    "value": 1.345974
+                },
+                {
+                    "output_load": 1.583100,
+                    "value": 1.349178
+                },
+                {
+                    "output_load": 3.166200,
+                    "value": 1.355587
+                },
+                {
+                    "output_load": 6.332400,
+                    "value": 1.368410
+                },
+                {
+                    "output_load": 12.664800,
+                    "value": 1.394072
+                },
+                {
+                    "output_load": 25.329600,
+                    "value": 1.445450
+                }
+            ]
+        },
+        {
+            "input_slew": 0.0426883,
+            "output_load": [
+                {
+                    "output_load": 0.365616,
+                    "value": 1.379013
+                },
+                {
+                    "output_load": 0.791550,
+                    "value": 1.380724
+                },
+                {
+                    "output_load": 1.583100,
+                    "value": 1.383906
+                },
+                {
+                    "output_load": 3.166200,
+                    "value": 1.390267
+                },
+                {
+                    "output_load": 6.332400,
+                    "value": 1.402994
+                },
+                {
+                    "output_load": 12.664800,
+                    "value": 1.428456
+                },
+                {
+                    "output_load": 25.329600,
+                    "value": 1.479409
+                }
+            ]
+        },
+        {
+            "input_slew": 0.102700,
+            "output_load": [
+                {
+                    "output_load": 0.365616,
+                    "value": 1.389952
+                },
+                {
+                    "output_load": 0.791550,
+                    "value": 1.391663
+                },
+                {
+                    "output_load": 1.583100,
+                    "value": 1.394843
+                },
+                {
+                    "output_load": 3.166200,
+                    "value": 1.401204
+                },
+                {
+                    "output_load": 6.332400,
+                    "value": 1.413928
+                },
+                {
+                    "output_load": 12.664800,
+                    "value": 1.439392
+                },
+                {
+                    "output_load": 25.329600,
+                    "value": 1.490385
+                }
+            ]
+        },
+        {
+            "input_slew": 0.196195,
+            "output_load": [
+                {
+                    "output_load": 0.365616,
+                    "value": 1.392886
+                },
+                {
+                    "output_load": 0.791550,
+                    "value": 1.394613
+                },
+                {
+                    "output_load": 1.583100,
+                    "value": 1.397822
+                },
+                {
+                    "output_load": 3.166200,
+                    "value": 1.404238
+                },
+                {
+                    "output_load": 6.332400,
+                    "value": 1.417074
+                },
+                {
+                    "output_load": 12.664800,
+                    "value": 1.442750
+                },
+                {
+                    "output_load": 25.329600,
+                    "value": 1.494110
+                }
+            ]
+        },
+        {
+            "input_slew": 0.327379,
+            "output_load": [
+                {
+                    "output_load": 0.365616,
+                    "value": 1.391064
+                },
+                {
+                    "output_load": 0.791550,
+                    "value": 1.392791
+                },
+                {
+                    "output_load": 1.583100,
+                    "value": 1.396000
+                },
+                {
+                    "output_load": 3.166200,
+                    "value": 1.402420
+                },
+                {
+                    "output_load": 6.332400,
+                    "value": 1.415261
+                },
+                {
+                    "output_load": 12.664800,
+                    "value": 1.440949
+                },
+                {
+                    "output_load": 25.329600,
+                    "value": 1.492351
+                }
+            ]
+        },
+        {
+            "input_slew": 0.5,
+            "output_load": [
+                {
+                    "output_load": 0.365616,
+                    "value": 1.382953
+                },
+                {
+                    "output_load": 0.791550,
+                    "value": 1.384691
+                },
+                {
+                    "output_load": 1.583100,
+                    "value": 1.387920
+                },
+                {
+                    "output_load": 3.166200,
+                    "value": 1.394378
+                },
+                {
+                    "output_load": 6.332400,
+                    "value": 1.407296
+                },
+                {
+                    "output_load": 12.664800,
+                    "value": 1.433140
+                },
+                {
+                    "output_load": 25.329600,
+                    "value": 1.484843
+                }
+            ]
+        }
+    ]
+}
